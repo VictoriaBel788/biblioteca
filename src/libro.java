@@ -9,5 +9,11 @@ public class libro extends publicacion {
         super(titulo, autor);
         this.numPaginas = numPaginas;
     }
-    
+
+    @Override
+    public void mostrarFicha() {
+        super.mostrarFicha();
+        System.out.println("Número de Páginas: " + numPaginas);
+    }
+
 }
