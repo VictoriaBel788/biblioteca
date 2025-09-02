@@ -1,5 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        libro miLibro = new libro("El Principito", "\"Antoine de Saint-Exupéry", 92);
+        miLibro.mostrarFicha();
     }
 }
